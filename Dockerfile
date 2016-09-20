@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet:1.0.0-preview2-sdk
 
 RUN apt-get -y clean \
 	&& apt-get -y purge \
